@@ -13,7 +13,8 @@ int add(int a, int b)
 
 using namespace std;
 
-int main(int argc, char** argv) {
+int main(int argc, char* argv[])
+{
 
 #if MODE == 0
 	cout << "Работаю в режиме тренировки\n";
